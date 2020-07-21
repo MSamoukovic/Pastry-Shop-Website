@@ -1,0 +1,27 @@
+body{
+background-color: #FFC0CB		;}
+
+.main-content{
+    width: 1400px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    width: 60px!important;
+}
+
+.dropdown-toggle::after {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rounded{
+    border-radius: 20px!important;
+}
+
+.rounded-left-side{
+    border-top-left-radius: 20px!important;
+    border-bottom-left-radius: 20px!important;
+
+}
