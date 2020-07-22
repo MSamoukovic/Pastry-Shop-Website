@@ -1,10 +1,5 @@
-body{
-background-color: #FFC0CB		;}
-
-.main-content{
-    width: 1400px!important;
-    margin-left: auto;
-    margin-right: auto;
+body, .bg-rose{
+background-color: #FFC0CB;
 }
 
 #logo{
@@ -23,5 +18,61 @@ background-color: #FFC0CB		;}
 .rounded-left-side{
     border-top-left-radius: 20px!important;
     border-bottom-left-radius: 20px!important;
+}
 
+.navbar {
+    background-color: white!important;
+}
+
+.form-control:focus {
+    border-color: #C0C0C0;
+    box-shadow: 0 0 0 0.1rem #C0C0C0;
+}
+
+.bg-silver{
+    background-color: #C0C0C0;
+}
+
+@media only screen and (min-width: 992px){
+    .main-content{
+        width: 1400px!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .rounded{
+        border-radius: 10px!important;
+    }
+
+    .rounded-sm-right-side{
+        border-top-right-radius: 20px!important;
+        border-bottom-right-radius: 20px!important;
+    }
+    
+    .navbar-collapse{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top:68px;
+        z-index: 100;
+        background-color:white;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+
+    .rounded-sm-bottom-side{
+        border-bottom-right-radius: 20px!important;
+        border-bottom-left-radius: 20px!important;
+    }
+
+    .rounded-sm-0{
+        border-radius: 0px!important;
+    }
+    .border-sm-bottom{
+        border-bottom: 1px solid silver;
+    }
 }

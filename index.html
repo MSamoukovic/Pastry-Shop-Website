@@ -28,36 +28,36 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
-
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
-
-  <title>Pastry Shop</title>
+  <title>Home</title>
 </head>
 
 <body>
   <div class="main-content">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" id="logo"></a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light rounded p-0 p-lg-3 rounded-sm-0">
+        <a class="navbar-brand pl-3 pl-lg-0" href="#"><img src="images/logo.png" id="logo"></a>
         <h3 class="m-0 d-none d-lg-inline">Pastry Shop</h3>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler mr-3 mr-lg-0" type="button" data-toggle="collapse"
+          data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-lg-flex" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse border-sm-bottom d-lg-flex px-4 px-lg-0 rounded-sm-bottom-side"
+          id="navbarNavDropdown">
           <ul class="navbar-nav ml-lg-auto">
-            <li class="nav-item active">
+            <li class="nav-item active px-lg-2">
               <a class="nav-link" href="#">
                 <h5 class="m-0">Home</h5><span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-lg-2">
               <a class="nav-link" href="aboutUs.html">
                 <h5 class="m-0">About Us</h5>
               </a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown px-lg-2">
               <a class="nav-link dropdown-toggle d-flex" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 <h5 class="m-0">Menu</h5>
@@ -66,39 +66,34 @@
                 <a class="dropdown-item" href="menuCakes.html">
                   <h5 class="m-0">Cakes</h5>
                 </a>
-                <a class="dropdown-item" href="menuCakes.html">
+                <a class="dropdown-item" href="menuCookies.html">
                   <h5 class="m-0">Cookies</h5>
                 </a>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-lg-2">
               <a class="nav-link" href="gallery.html">
                 <h5 class="m-0">Gallery</h5>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-lg-2">
               <a class="nav-link" href="reservation.html">
                 <h5 class="m-0">Reservation</h5>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">
-                <h5 class="m-0">Contact</h5>
               </a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <div class="row m-0 my-2 rounded">
-      <div id="carouselExampleIndicators" class="carousel slide w-100 rounded" data-ride="carousel">
+    <div class="row m-0 my-1 rounded mx-1 mx-lg-0">
+      <div id="carouselExampleIndicators" class="carousel slide w-100 rounded " data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active border">
+          <div class="carousel-item active">
             <img src="images/slideShowImages/image3.jpg" class="d-block w-100 rounded" alt="...">
           </div>
           <div class="carousel-item">
@@ -118,54 +113,64 @@
         </a>
       </div>
     </div>
-    <footer class="border bg-white rounded">
+    <div class="row m-0 my-1 mx-1 mx-lg-0 rounded d-flex justify-content-center bg-white">
+      <div class="col-12 col-md-10 col-lg-7 p-0 py-4">
+        <p class="m-0 text-center">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum."
+        </p>
+      </div>
+    </div>
+    <footer class="bg-white rounded mx-1 mx-lg-0 mb-1 mb-lg-0">
       <div class="row m-0">
-        <div class="col-7 p-0 border">
+        <div class="col-12 col-lg-7 p-0">
           <div id="googleMap">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11507.326372816196!2d18.4271109!3d43.8593191!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0de3b0e57534b20!2sSlasti%C4%8Darna+Egipat!5e0!3m2!1sen!2sba!4v1548006965431"
-              class="w-100 border-0 rounded-left-side" height="300px"></iframe>
+              class="w-100 border-0 rounded-left-side rounded-sm-right-side" height="300px"></iframe>
           </div>
         </div>
-        <div class="col-5 p-0 d-flex">
-          <div class="row m-0 my-auto w-100">
-            <div class="col-12 p-0">
-              <div class="row m-0 d-flex justify-content-center">
-                <div class="col-1 p-0 border d-flex">
+        <div class="col-12 col-lg-5 p-0">
+          <div class="row m-0 d-flex h-100 py-4 py-lg-0">
+            <div class="col-12 p-0 my-auto">
+              <div class="row m-0 d-flex justify-content-center ">
+                <div class="col-1 p-0 d-flex">
                   <span class="m-auto"><i class="fas fa-map-marker-alt fa-1x"></i></span>
                 </div>
-                <div class="col-3 p-0 border">
+                <div class="col-4 col-md-3 p-0">
                   <h6 class="m-0">Address</h6>
                 </div>
               </div>
               <div class="row m-0 d-flex justify-content-center">
-                <div class="col-1 p-0 border d-flex">
+                <div class="col-1 p-0 d-flex">
                   <span class="m-auto"><i class="fas fa-envelope fa-1x"></i></span>
                 </div>
-                <div class="col-3 p-0 border">
+                <div class="col-4 col-md-3 p-0">
                   <h6 class="m-0">mail@example.com</h6>
-
                 </div>
               </div>
               <div class="row m-0 d-flex justify-content-center">
-                <div class="col-1 p-0 border d-flex">
+                <div class="col-1 p-0 d-flex">
                   <span class="m-auto"><i class="fas fa-phone fa-1x"></i></span>
                 </div>
-                <div class="col-3 p-0 border">
+                <div class="col-4 col-md-3 p-0">
                   <h6 class="m-0">000000000</h6>
-
                 </div>
               </div>
               <div class="row m-0 d-flex justify-content-center">
-                <div class="col-1 p-0 border d-flex">
-                  <span class="m-auto"><i class="fas fa-viber fa-1x"></i></span>
+                <div class="col-1 p-0 d-flex">
+                  <span class="m-auto"><i class="fab fa-viber fa-1x"></i></span>
                 </div>
-                <div class="col-3 p-0 border">
+                <div class="col-4 col-md-3 p-0">
                   <h6 class="m-0">000000000</h6>
-
                 </div>
               </div>
-              <div class="row m-0 d-flex flex-column pt-3">
+              <!-- <div class="row m-0 d-flex flex-column pt-3">
                 <div class="col-6 p-0 text-center mx-auto">Follow Us</div>
                 <div class="col-6 p-0 d-flex justify-content-center  mx-auto">
                   <a href="https://www.facebook.com">
@@ -180,7 +185,7 @@
                     </span>
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -188,4 +193,5 @@
     </footer>
   </div>
 </body>
+
 </html>
